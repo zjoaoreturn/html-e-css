@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 11</title>
+</head>
+<body>
+    <h1>Imagem adptada</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="A Imagem funciona">
+    </picture>
+
+    <h1>Audio</h1>
+    <audio preload="metadata" controls autoplay>
+        <source src="audios/Robot City - Quincas Moreira.mp3" type="audio/mpeg">
+        <source src="audios/Robot City - Quincas Moreira.ogg" type="audio/ogg">
+        <source src="audios/Robot City - Quincas Moreira.wav" type="audio/wav">
+        <p>O seu dispositivo não pode reproduzir audio, <a href="audios/Robot City - Quincas Moreira.mp3">Clique aqui para baixar</a></p></p>
+    </audio>
+</body>
+</html>
